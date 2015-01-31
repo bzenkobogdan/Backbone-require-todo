@@ -1,0 +1,8 @@
+.friend-list {
+    padding: 30px;
+    background-color: #eee;
+}
+
+.active div{
+    background-color: red;
+}

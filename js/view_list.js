@@ -4,7 +4,7 @@ define("view_list" ,[
     "./view_item"
 ], function(
     Backbone,
-    friendCollection,
+    FriendCollection,
     FriendView
 ) {
     var AppView = Backbone.View.extend({
@@ -42,6 +42,8 @@ define("view_list" ,[
 
 
     });
+    var friendCollection = new FriendCollection;
 
     return AppView;
+
 });

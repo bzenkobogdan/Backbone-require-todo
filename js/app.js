@@ -1,4 +1,3 @@
-require(["collection" , "view_list"], function(FriendCollection, AppView) {
-    var friendCollection = new FriendCollection;
-    var app = new AppView(friendCollection);
+require(["view_list"], function(AppView) {
+    var app = new AppView();
 });
